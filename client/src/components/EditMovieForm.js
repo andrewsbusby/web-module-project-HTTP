@@ -7,6 +7,8 @@ import axios from 'axios';
 const EditMovieForm = (props) => {
 	const { push } = useHistory();
 
+	const setMovies = props;
+
 	const { id } = useParams();
 	useEffect(() => {
 		axios.get('http://localhost:5000/api/movies/${id}')
