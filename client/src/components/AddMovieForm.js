@@ -89,3 +89,4 @@ const AddMovieForm = (props) => {
     )
 }
 
+export default AddMovieForm;
